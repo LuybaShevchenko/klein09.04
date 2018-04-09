@@ -1,3 +1,4 @@
 <div>
-Hello!
+Hello
+<?= htmlspecialchars($this->name) ?>!
 </div>
